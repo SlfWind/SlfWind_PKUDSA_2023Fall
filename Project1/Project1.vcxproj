@@ -24,6 +24,7 @@
     <ProjectGuid>{8f75fd7a-4d3c-434e-b402-d0be366c982c}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Codes</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="DSA_algorithms.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="DSA_data_structures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DSA_data_structures.h" />
